@@ -1,0 +1,4 @@
+theme: jekyll-theme-tactile
+description: koneta.com
+plugins:
+  - jekyll-filename
