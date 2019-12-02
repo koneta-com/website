@@ -17,9 +17,9 @@
       <div class="inner">
 
         <header>
-          {% assign filename = page.url | replace_first: '/wiki/', ''  %}
+          {% assign filename = page.url | replace_first: '/', ''  %}
           {% if filename == "" %}
-          <h1>kinug/wiki</h1>
+          <h1>koneta.com</h1>
           {% else %}
           <h1>{{ filename | replace: '.html', '' }}</h1>
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
